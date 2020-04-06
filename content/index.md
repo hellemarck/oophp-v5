@@ -6,7 +6,7 @@ Min me-sida i kursen oophp
 
 <!-- Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`. -->
 
-[FIGURE src="image/mette.jpg?w=400&a=4,27,11,0&cf&sharpen" class="right" caption="Bild på mig."]
+[FIGURE src="image/mette.png?w=400&a=4,27,11,0&cf&sharpen" class="right" caption="Bild på mig."]
 
 Detta är min me-sida i kursen oophp. Jag heter Mette Hellemarck och studerar Webbprogrammering (120 hp) på distans via Blekinge Tekniska Högskola. Jag är 27 år gammal och bor med sambo i Malmö.
 
