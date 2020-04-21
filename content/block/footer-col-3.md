@@ -4,4 +4,4 @@
 
 [Kursens hemsida](https://dbwebb.se/kurser/oophp-v5)
 
-[Mitt Github-repo för kursen](XXX)
+[Mitt Github-repo för kursen](https://github.com/hellemarck/oophp-v5)
