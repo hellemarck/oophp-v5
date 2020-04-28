@@ -7,12 +7,26 @@ class Game
     public $player;
     public $cpu;
     public $turn;
+    // public $diceHistogram;
+    // public $histogram;
 
     public function __construct()
     {
+        // $this->diceHistogram = new DiceHistogram();
+        // $this->histogram = new Histogram();
         $this->player = new Player();
         $this->cpu = new Player();
         $this->turn = "player";
+    }
+
+    public function getHistogram()
+    {
+        return $this->histogram;
+    }
+
+    public function getDiceHistogram()
+    {
+        return $this->diceHistogram;
     }
 
     public function player()

@@ -80,7 +80,7 @@ class DiceCasePlayer extends TestCase
     public function testCpuRoll()
     {
         $cpu = new Player();
-        $cpu->cpuRoll();
+        $cpu->cpuRoll(5);
 
         $lastRoll = $cpu->lastRoll();
         $this->assertThat(
