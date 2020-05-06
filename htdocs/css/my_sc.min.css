@@ -41,6 +41,37 @@ body {
     padding: 20px;
 }
 
+/* Movie database table */
+img.thumb {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+table {
+    border: 1px solid #ccc;
+    padding: 0.5em;
+}
+
+tr.first {
+    background-color: #ddd;
+}
+
+tr:hover {
+    background-color: #eee;
+}
+
+th {
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 4px;
+}
+
+/* End style for table movie */
+
 .inner-wrap.inner-wrap-main {
     background-color: #f9efed;
     margin-bottom: 20px;
