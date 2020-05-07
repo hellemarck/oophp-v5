@@ -3,7 +3,7 @@
 namespace Anax\View;
 
 /**
- * Template file to render a view with content.
+ * Template file to render a view with movies.
  */
 
 // Show incoming variables and view helper functions
@@ -12,8 +12,10 @@ namespace Anax\View;
 if (!$resultset) {
     return;
 }
-?>
 
+require "../view/movie/header.php";
+
+?>
 <table>
     <tr class="first">
         <th>Rad</th>
@@ -33,3 +35,4 @@ if (!$resultset) {
     </tr>
 <?php endforeach; ?>
 </table>
+</main>
