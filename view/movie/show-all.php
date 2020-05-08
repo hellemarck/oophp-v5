@@ -16,6 +16,8 @@ if (!$resultset) {
 require "../view/movie/header.php";
 
 ?>
+<fieldset>
+<legend>All movies</legend>
 <table>
     <tr class="first">
         <th>Rad</th>
@@ -27,12 +29,13 @@ require "../view/movie/header.php";
 <?php $id = -1; foreach ($resultset as $row) :
     $id++; ?>
     <tr>
-        <td><?= $id ?></td>
-        <td><?= $row->id ?></td>
-        <td><img class="thumb" src="<?= $row->image ?>"></td>
-        <td><?= $row->title ?></td>
-        <td><?= $row->year ?></td>
+        <td><?= htmlentities($id) ?></td>
+        <td><?= htmlentities($row->id) ?></td>
+        <td><img class="thumb" src="../<?= htmlentities($row->image) ?>"></td>
+        <td><?= htmlentities($row->title) ?></td>
+        <td><?= htmlentities($row->year) ?></td>
     </tr>
 <?php endforeach; ?>
+</fieldset>
 </table>
 </main>

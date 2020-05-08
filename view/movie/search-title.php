@@ -2,10 +2,10 @@
 
 <form method="get">
     <fieldset>
-    <legend>Search</legend>
+    <legend>Search title</legend>
     <input type="hidden" name="route" value="search-title">
     <p>
-        <label>Title (use % as wildcard):
+        <label>Title:
             <input type="text" name="doSearch" placeholder="Search">
         </label>
     </p>
@@ -13,8 +13,7 @@
         <input type="submit" name="Search" value="Search">
     </p>
     <p><a href="show-all">Show all</a></p>
-    </fieldset>
-</form>
+
 
 <?php if ($resultset) : ?>
     <table>
@@ -36,4 +35,8 @@
         </tr>
     <?php endforeach; ?>
     </table>
-<?php endif;
+<?php endif;?>
+
+</fieldset>
+</form>
+</main>

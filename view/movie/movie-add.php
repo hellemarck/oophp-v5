@@ -20,3 +20,4 @@ require "../view/movie/header.php";?>
 
     <input type="submit" name="doAdd" value="Add movie" formaction="saveNewMovie">
 </form>
+</main>

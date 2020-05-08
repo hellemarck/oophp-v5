@@ -1,6 +1,7 @@
 <?php
 
 namespace Anax\View;
+
 require "../view/movie/header.php";
 ?>
 <form method="post">
@@ -35,3 +36,4 @@ require "../view/movie/header.php";
     </p>
     </fieldset>
 </form>
+</main>

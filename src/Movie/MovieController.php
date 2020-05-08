@@ -133,7 +133,7 @@ class MovieController implements AppInjectableInterface
 
         return $this->app->page->render([
             "title" => $title,
-        ]);;
+        ]);
     }
 
     /**
@@ -159,7 +159,7 @@ class MovieController implements AppInjectableInterface
 
         return $this->app->page->render([
             "title" => $title,
-        ]);;
+        ]);
     }
 
     /**
@@ -173,7 +173,6 @@ class MovieController implements AppInjectableInterface
         $year = $this->app->request->getPost("movieYear");
         $img = $this->app->request->getPost("movieImage");
         $doSave = $this->app->request->getPost("doSave");
-        $doAdd = $this->app->request->getPost("doAdd");
 
         if ($doSave) {
             $sql = "UPDATE movie SET title = ?, year = ?, image = ? WHERE id = ?;";

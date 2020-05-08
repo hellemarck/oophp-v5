@@ -27,6 +27,15 @@ body {
     font-family: "Inria Serif";
 }
 
+h1 {
+    border-bottom: 0;
+}
+
+.outer-wrap.outer-wrap-header {
+    /* border-bottom: 1px solid #666; */
+    height: 100px;
+}
+
 .region-header-col-2 a {
     font-family: "Amatic SC";
 }
@@ -34,6 +43,21 @@ body {
 .region-header-col-1 a {
     font-family: "Amatic SC";
     font-size: 55px;
+}
+
+.navbar-movie {
+    background-color: #fff9f7;
+    border: 1px solid #e0d0cc;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.navbar-movie a {
+    color: #545454;
+}
+
+.navbar-movie a:visited {
+    color: #545454;
 }
 
 .region-main {
@@ -50,6 +74,7 @@ img.thumb {
 table {
     border: 1px solid #ccc;
     padding: 0.5em;
+    background-color: #fff9f7;
 }
 
 tr.first {
@@ -68,6 +93,19 @@ th {
 th,
 td {
     padding: 4px;
+    border-bottom: 1px solid #e0d0cc;
+}
+
+form a {
+    color: #576e57;
+}
+
+form a:visited {
+    color: #576e57;
+}
+
+legend {
+    font-style: italic;
 }
 
 /* End style for table movie */

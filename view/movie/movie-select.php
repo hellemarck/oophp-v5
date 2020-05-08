@@ -6,12 +6,15 @@ require "../view/movie/header.php";?>
 
 <form method="post">
     <fieldset>
-    <legend>Select Movie</legend>
+    <legend>Create, edit or delete a movie</legend>
+
+    <input type="submit" name="doAdd" value="Add new movie" formaction="addMovie">
+
 
     <p>
-        <label>Movie:<br>
+        <label>Edit or delete existing movie:<br>
         <select name="movieId">
-            <option value="">Select movie...</option>
+            <option value="">Select movie</option>
             <?php foreach ($movies as $movie) : ?>
             <option value="<?= $movie->id ?>"><?= $movie->title ?></option>
             <?php endforeach; ?>
@@ -28,7 +31,4 @@ require "../view/movie/header.php";?>
     <p><a href="show-all">Show all</a></p>
     </fieldset>
 </form>
-
-<form action="addMovie">
-    <input type="submit" value="Add movie">
-</form>
+</main>
