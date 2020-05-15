@@ -9,6 +9,7 @@ use \Michelf\Markdown;
  *
  * @SuppressWarnings(PHPMD.UnusedFormalParameter)
  * @SuppressWarnings(PHPMD.UnusedPrivateField)
+ * @SuppressWarnings(PHPMD.StaticAccess)
  */
 class MyTextFilter
 {
