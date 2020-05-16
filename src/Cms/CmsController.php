@@ -266,7 +266,7 @@ EOD;
         $title = "Edit content";
         $this->app->db->connect();
         $contentId = getPost("contentId");
-        $slugMsg = "";
+        // $slugMsg = "";
 
         if (hasKeyPost("doSave")) {
             $params = getPost([
@@ -306,8 +306,8 @@ EOD;
 
             return $this->app->response->redirect("cms/edit?id=$contentId");
             return $this->app->page->render([
-                "title" => $title,
-                "slugMsg" => $slugMsg
+                "title" => $title
+                // "slugMsg" => $slugMsg
             ]);
         }
     }
